@@ -1,4 +1,8 @@
 # Changes
+## v3.1.4
+
+* Ruby 3.3.5 is removing ostruct as default gem, added as dependency.
+
 ## v3.1.3
 
 * Fixed a configuration error that wouldn't allow you to do different kinds of calls on the same object, for example calling .to_box and then .to_s would result in unexpected behavior.
